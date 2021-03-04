@@ -13,6 +13,7 @@ body {
 header {
 	position: relative; top: 0px; right: 0px;
   background-color: whitesmoke;
+  display: inline;
 }
 
 main {
