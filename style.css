@@ -95,3 +95,16 @@ p {
   font-family: 'Courier New', Courier, monospace;
   color: black;
 }
+
+.leftAlign {
+  justify-content: left;
+}
+
+.rightAlign {
+  justify-content: right;
+}
+
+#appBtn {
+  height: 16px;
+  width: 16px;
+}
