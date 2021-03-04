@@ -97,8 +97,8 @@ p {
 }
 
 ul {
-    display: inline-block;
-    list-style-type: disc;
+    display: inline;
+    list-style-type: none;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -117,4 +117,10 @@ ul {
 #appBtn {
   height: 16px;
   width: 16px;
+}
+
+#signIn {
+  background-color: #4683ea;
+  text-decoration-color: whitesmoke;
+  border-radius: 5%;
 }
