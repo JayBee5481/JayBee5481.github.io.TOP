@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(115, 115, 115);
+  background-color: whitesmoke;
 	font-size: 20px;
 	font-family: 'Courier New', Courier, monospace;
 	width: auto;
@@ -12,11 +12,11 @@ body {
 
 header {
 	position: relative; top: 0px; right: 0px;
-  background-color: steelblue;
+  background-color: whitesmoke;
 }
 
 main {
-  background-color: rgb(115, 115, 115);
+  background-color:whitesmoke;
 }
 
 /*div {
