@@ -3,125 +3,127 @@
 	padding: 0;
 }
 
-body {
-  background-color: whitesmoke;
-	font-size: 20px;
-	font-family: 'Courier New', Courier, monospace;
-	width: auto;
+.gridContainer {
+  display: grid;
+  grid-template-areas: 
+    "about store gmail . images apps signIn"
+    ". . logo logo logo . ."
+    " . searchBar searchBar searchBar searchBar searchBar ."
+    ". googleSearchButton googleSearchButton . imFeelingLucky imFeelingLucky ."
+    "advertising business howSearchWorks . privacy terms settings";
+  grid-gap: 1fr;
+
 }
 
-header {
-	position: relative; top: 0px; right: 0px;
-  background-color: whitesmoke;
-  display: inline;
-}
-
-main {
-  background-color:whitesmoke;
-}
-
-/*div {
-  background-color: rgb(115, 115, 115);
-	border: 3px;
-	border-style: double;
-	border-radius: 10px;
-	border-color: black;
-	margin: 10px;
-}*/
-
-/*article {
-  border: 3px;
-	border-style: double;
-	border-radius: 10px;
-	border-color: black;
-  background-color: dodgerblue;
-	color: #000066;
-	opacity: 1.0;
-	width: 50%;
-	padding: 0;
-	margin: 0;
-	display: inline-block;
-}*/
-
-/*section {
-	color: #0000ff;
-	padding-top: 10px;
-	display: inline;
-}*/
-
-footer {
-	position: relative; bottom: 0px; left: 0px;
-  background-color: steelblue;
-}
-
-h1 {
-	font-size: 22px;
-  font-family: 'Courier New', Courier, monospace;
+.about {
+  grid-area: about;
   color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
 }
-
-h2 {
-	font-size: 20px;
-  font-family: 'Courier New', Courier, monospace;
+.store {
+  grid-area: store;
   color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
 }
-
-h3 {
-	font-size: 18px;
-  font-family: 'Courier New', Courier, monospace;
+.gmail {
+  grid-area: gmail;
   color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
 }
-
-h4 {
-  font-size: 16px;
-  font-family: 'Courier New', Courier, monospace;
+.images {
+  grid-area: images;
   color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
 }
-
-h5 {
-  font-size: 14px;
-  font-family: 'Courier New', Courier, monospace;
+.apps {
+  grid-area: apps;
   color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
 }
-
-h6 {
-  font-size: 10px;
-  font-family: 'Courier New', Courier, monospace;
+.signIn {
+  grid-area: signIn;
   color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
 }
-
-
-p {
-	font-size: 12px;
-  font-family: 'Courier New', Courier, monospace;
+.logo {
+  grid-area: logo;
   color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
 }
-
-ul {
-    display: inline;
-    list-style-type: none;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+.searchBar {
+  grid-area: searchBar;
+  color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
 }
-
-.leftAlign {
-  justify-content: left;
+.googleSearchButton {
+  grid-area: googleSearchButton;
+  color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
 }
-
-.rightAlign {
-  justify-content: right;
+.imFeelingLucky {
+  grid-area: imFeelingLucky;
+  color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
 }
-
-#appBtn {
-  height: 16px;
-  width: 16px;
+.advertising {
+  grid-area: advertising;
+  color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
 }
-
-#signIn {
-  background-color: #4683ea;
-  text-decoration-color: whitesmoke;
-  border-radius: 5%;
+.business {
+  grid-area: business;
+  color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
+}
+.howSearchWorks {
+  grid-area: howSearchWorks;
+  color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
+}
+.privacy {
+  grid-area: privacy;
+  color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
+}
+.terms {
+  grid-area: terms;
+  color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
+}
+.settings {
+  grid-area: settings;
+  color: black;
+  opacity: 0.75;
+  padding: 10px;
+  font-size: 13px;
 }
